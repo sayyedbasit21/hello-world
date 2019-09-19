@@ -11,12 +11,26 @@
 
 <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" id="im" />
 
-  <button onclick="hd()">Click To See The Magic</button>
+  <button onclick="hd()" class="btn">Click To See The Magic</button>
   
 <!-- Change this code here by copy and pasting your template on line 15 -->
 <p>Welcome to your first GitHub Pages website!</p>
 
-  <script href="my.js"></script>
+  <script>
+  alert("Welcome to DEVELOPER ARENA");
+
+function hd(){
+let clickBt = document.getElementById("im");
+ if(clickBt.style.display === "none"){
+ clickBt.style.display = "block"
+ }
+  else{
+  clickBt.style.display = "none"
+  }
+}
+  
+  
+  </script>
   
 </body>
 </html>
