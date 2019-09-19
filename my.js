@@ -1,9 +1,11 @@
+alert(Welcome to DEVELOPER ARENA);
+
 function hd(){
-let click = document.getElementById("im");
- if(click.style.display === "none"){
- click.style.display = "block"
+let clickBt = document.getElementById("im");
+ if(clickBt.style.display === "none"){
+ clickBt.style.display = "block"
  }
   else{
-  click.style.display = "none"
+  clickBt.style.display = "none"
   }
 }
